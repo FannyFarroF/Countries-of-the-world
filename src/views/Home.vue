@@ -225,4 +225,6 @@
     text-transform: uppercase;
     font-size: 1.1rem;
   }
+  @media only screen and (max-width: 640px) {
+  }
 </style>

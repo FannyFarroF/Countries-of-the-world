@@ -1,10 +1,4 @@
 <template>
-  <div></div>
-  <!-- <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div> -->
-
   <router-view />
 </template>
 
@@ -45,6 +39,30 @@
   @media only screen and (max-width: 640px) {
     .container {
       width: 90% !important;
+    }
+    .main ul {
+      padding: 0;
+    }
+    .wrapper-footer {
+      flex-direction: column;
+    }
+    .pagination {
+      flex-wrap: wrap !important;
+      align-items: center !important;
+      justify-content: center !important;
+    }
+    .main .item {
+      height: 120px !important;
+    }
+    .extras {
+      flex-direction: column;
+      justify-content: start;
+      margin: 5px 0;
+      p {
+        width: 100%;
+        text-align: start;
+        padding: 0 !important;
+      }
     }
   }
 </style>
